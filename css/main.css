@@ -10,6 +10,8 @@ a {
   cursor: pointer;
 }
 
+/* ********** Estilos del header ********** */
+
 header {
   width: 100%;
   height: 60px;
@@ -50,6 +52,8 @@ nav .nav-right-section img {
   margin-left: 10px;
 }
 
+/* ********** Estilos del logo ********** */
+
 main {
   margin-top: 150px;
   text-align: center;
@@ -64,6 +68,8 @@ main .main-logo {
 main .main-logo img {
   width: 300px;
 }
+
+/* ********** Estilos del input ********** */
 
 main .main-input {
   width: 530px;
@@ -109,6 +115,8 @@ main .main-input .micro-icon {
   cursor: pointer;
 }
 
+/* ********** Estilos de buttons ********** */
+
 main .main-buttons {
   width: 530px;
   margin: 0 auto;
@@ -144,4 +152,42 @@ main .main-buttons button:hover {
 main .main-buttons button:focus {
   border: 1px solid #4d90fe;
   outline: none;
+}
+
+/* ********** Estilos del Footer ********** */
+
+footer {
+  width: 100%;
+  height: 50px;
+  /* Asegurarnos de q el footer llegue al final de la pagina */
+  position: absolute;
+  bottom: 0;
+  /* ------------------ */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  font-size: 14px;
+  background: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+}
+
+footer ul {
+  margin: 10px;
+  list-style: none;
+  display: flex;
+  padding-left: 0;
+}
+
+footer .footer-left {
+  justify-self: left;
+}
+
+footer .footer-right {
+  justify-self: right;
+}
+
+footer ul li a {
+  margin: 10px;
+  color: #5f6368;
+
 }
