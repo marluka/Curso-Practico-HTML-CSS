@@ -63,3 +63,26 @@ main .main-logo {
 main .main-logo img {
   width: 300px;
 }
+
+main .main-input {
+  width: 530px;
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
+
+main .main-input-container {
+  width: 525px;
+  border-radius: 100px;
+  border: 1px solid #DFE1E5;
+  /* flex nos ayuda a mantener de forma lineal los 3 elementos que tiene el contenedor main-input-container */
+  display: flex; 
+  justify-content: center;
+  text-align: center;
+}
+
+main .main-input input {
+  width: 450px;
+  height: 40px;
+  border: none;
+  outline: none;
+}
